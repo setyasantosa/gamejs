@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 98vh;
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cage{
+    height: 500px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 3px;
+    position: relative;
+
+}
+
+.snake-body{
+    height: 10px;
+    width: 10px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    position: absolute;
+}
+
+#head{
+    border: 1px solid red;
+}
+
+#food{
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    position: absolute;
+    border-radius: 3px;
+}
+
+#score{
+    margin: 0;
+}
